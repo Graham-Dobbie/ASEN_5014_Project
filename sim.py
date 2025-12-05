@@ -120,7 +120,7 @@ def plot_state(X_sol, t_sol, diff=False, X_ref=None, t_ref=None):
     else:
         fig.suptitle("State Variables Over Time")
 
-    plt.tight_layout()
+    fig.tight_layout()
     return fig
 
 
